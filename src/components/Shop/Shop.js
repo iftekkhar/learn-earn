@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../Shop/Shop.css";
 import Course from "../CourseSingle/Course";
+import { Container, Row } from "react-bootstrap";
 import Cart from "../Cart/Cart";
 import { useEffect } from "react";
 
@@ -20,7 +21,14 @@ const Shop = () => {
   return (
     <div className="shop">
       <h2>All Courses</h2>
-      <Course courses={courses} handleAddCourses={handleAddCourses}></Course>
+      <Container>
+        <Row>
+          {courses.map((course) => (
+            <Course course={course} handleAddCourses={handleAddCourses} key={course.id}></Course>
+          ))}
+        </Row>
+      </Container>
+
       <Cart cart={cart}></Cart>
     </div>
   );
