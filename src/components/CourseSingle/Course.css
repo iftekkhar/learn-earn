@@ -1,0 +1,35 @@
+.card-footer {
+  display: flex;
+  background-color: #fff;
+  border: none;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.btn-learn-earn {
+  background-image: linear-gradient(to right, #5f75d8, #8f78ed);
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 20px 10px 20px;
+}
+.btn-learn-earn span {
+  padding-left: 10px;
+}
+.btn-learn-earn:hover {
+  color: #fff;
+}
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+.card-text {
+  color: #828282;
+}
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px #8c78ec38;
+}
+.rating-box {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}

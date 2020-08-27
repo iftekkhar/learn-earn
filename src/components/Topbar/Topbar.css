@@ -1,0 +1,22 @@
+.topbar {
+  box-shadow: 0px 0px 10px #5f75d854;
+}
+.top-bar-inner.col {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar-brand {
+  text-align: center;
+  font-weight: bold;
+  background: #fff;
+  color: #775cd9 !important;
+  font-size: 30px;
+}
+.navbar-nav a {
+  color: #333 !important;
+  font-weight: 400;
+}
+a.nav-link.active {
+  border-top: 5px solid #8473da;
+  padding-top: 3px;
+}
